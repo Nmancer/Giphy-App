@@ -13,6 +13,7 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={TrendingContainer} />
             <Route path="/search" component={SearchPage} />
+            <Route component={TrendingContainer} />
           </Switch>
         </>
       </BrowserRouter>
